@@ -1,0 +1,64 @@
+body {
+  background-color: grey;
+}
+
+a {
+  color: yellow;
+}
+
+header {
+  background-color: navy;
+  color: white;
+  overflow: auto;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.orange-thing {
+  width: 800px;
+  background-color: goldenrod;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  /* clear: both; */
+}
+
+.facebook-thing {
+  /* facebook-thing is the parent of the floated tags
+     "overflow: auto;" fixes the overlapping float problem */
+  overflow: auto;
+
+  width: 1000px;
+  margin: 0 auto;
+}
+
+div {
+  border: 2px dashed black;
+  background-color: deeppink;
+  color: white;
+  font-size: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.friend-suggestions {
+  width: 300px;
+}
+
+.posts {
+  width: 500px;
+}
+
+.ads {
+  width: 200px;
+}
